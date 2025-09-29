@@ -26,6 +26,18 @@ BUAA SSO Auto Login 是一个基于油猴脚本（Tampermonkey/Greasemonkey）�
 
 ### 2. 安装脚本
 
+#### 方法一：一键安装（推荐）
+
+点击下方链接直接安装脚本：
+
+**[📥 点击安装 BUAA SSO Auto Login](https://cdn.jsdelivr.net/gh/BUAASubnet/BUAA-SSOAutoLogin/login.js)**
+
+> 点击链接后，Tampermonkey 会自动打开脚本安装页面，点击"安装"即可。
+
+#### 方法二：手动安装
+
+如果上述链接无法使用，可以手动安装：
+
 1. 复制 `login.js` 文件中的所有内容
 2. 打开 Tampermonkey 控制面板
 3. 点击 "创建新脚本"
