@@ -2,6 +2,8 @@
 // @name         BUAA SSO Auto Login
 // @name:zh-CN   北航统一认证自动登录
 // @namespace    http://tampermonkey.net/
+// @updateURL       https://cdn.jsdelivr.net/gh/BUAASubnet/BUAA-SSOAutoLogin/main.user.js
+// @downloadURL     https://cdn.jsdelivr.net/gh/BUAASubnet/BUAA-SSOAutoLogin/main.user.js
 // @version      1.0
 // @description  Prompts for credentials if not found, then posts login data and reloads the page.
 // @description:zh-CN 当进入sso界面时自动触发登录。
