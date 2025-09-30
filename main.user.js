@@ -9,6 +9,7 @@
 // @description:zh-CN 当进入sso界面时自动触发登录。
 // @author       MooreFoss https://github.com/MooreFoss
 // @match        *://sso.buaa.edu.cn/login*
+// @match        *://d.buaa.edu.cn/https/77726476706e69737468656265737421e3e44ed225256951300d8db9d6562d/login*
 // @connect      buaa.edu.cn
 // @connect      *.buaa.edu.cn
 // @grant        GM_xmlhttpRequest
@@ -153,7 +154,7 @@
     });
 
     // 2. 在登录页面自动执行登录
-    if (window.location.href.startsWith("https://sso.buaa.edu.cn/login")) {
+    if (window.location.href.startsWith("https://sso.buaa.edu.cn/login") || window.location.href.startsWith("https://d.buaa.edu.cn/https/77726476706e69737468656265737421e3e44ed225256951300d8db9d6562d/login")) {
         // 确保页面上存在用户名输入框，避免在已登录的提示页重复执行
         if (document.querySelector('input[name="username"]')) {
             console.log('检测到登录页面，准备自动登录...');
